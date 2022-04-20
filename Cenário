@@ -6,6 +6,11 @@ SISTEMA DE LEILÕES
 3. Um usuário é uma pessoa que dá lances no sistema
 4. Avaliar é o responsável por avaliar o maior e menor lance
 
+* Processos a serem testados:
+- lances em ordem crescente
+- lances em ordem decrescente
+- lances em ordem randonica
+- leilão com unico lance
 
 
 * Teste Automatizado é composto de:
