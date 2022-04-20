@@ -8,7 +8,7 @@ import org.junit.Test;
 
 public class LeilaoTest {
 
-//	@Test
+	@Test
 	public void deveReceberApenasUmLance() {
 		Leilao leilao = new Leilao("Macbook Pro 15");
 		assertEquals(0, leilao.getLances().size());
@@ -18,7 +18,7 @@ public class LeilaoTest {
 		assertEquals(new BigDecimal("2000.0"), leilao.getLances().get(0).getValor());
 	}
 	
-//	@Test
+	@Test
 	public void deveReceberVariosLances() {
 		Leilao leilao = new Leilao("Uno 2010");
 		
@@ -30,7 +30,7 @@ public class LeilaoTest {
 		assertEquals(new BigDecimal("12.100"), leilao.getLances().get(1).getValor());
 	}
 	
-//	@Test
+	@Test
 	public void naoDeveAceitarDoisLancesEmSequenciaDeUmMesmoUsuarioNoMesmoLeilao() {
 		Leilao leilao = new Leilao("Macbook Pro 17");
 		
