@@ -1,0 +1,14 @@
+CENÁRIO:
+
+SISTEMA DE LEILÕES
+1. Um leilão é composto por 0:N lances informados
+2. Cada lance é composto pelo usuario e pelo valor do lance
+3. Um usuário é uma pessoa que dá lances no sistema
+4. Avaliar é o responsável por avaliar o maior e menor lance
+
+
+
+* Teste Automatizado é composto de:
+1. cenário
+2. ação
+3. validação

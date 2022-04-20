@@ -12,7 +12,8 @@ public class Avaliador {
 		leilao.getLances().forEach(item -> {
 			if(item.getValor().compareTo(maiorLance) >= 1) {
 				maiorLance = item.getValor();
-			}else if(item.getValor().compareTo(menorLance) < 0) {
+			}
+			if(item.getValor().compareTo(menorLance) < 0) {
 				menorLance = item.getValor();
 			}
 		});
