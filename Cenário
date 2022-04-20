@@ -17,3 +17,8 @@ SISTEMA DE LEILÕES
 1. cenário
 2. ação
 3. validação
+
+
+* Novas Regras Leilão
+- um usuario não pode propor mais que um lance em sequencia
+- um usuario não pode propor mais que cinco lances no mesmo leilão
