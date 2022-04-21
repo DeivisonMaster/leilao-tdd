@@ -28,6 +28,12 @@ public class TesteAvaliador {
 		jose = new Usuario("José");
 	}
 	
+	@Test(expected=RuntimeException.class)
+	public void naoDeveAvaliarLeilaoSemLanceInformado() {
+		Leilao leilao = new LeilaoBuilder().para("Playstation 4 usado").build();
+		avaliador.avaliaLances(leilao);
+	}
+	
 	@Test
 	public void deveEntenderLancesEmOrdemCrescente() {
 		// cenário
